@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Ships Parameters</title>
+		<link rel="stylesheet" type="text/css" href="styles/mystyle.css">
+		<script src="scripts/main.js" defer></script>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Press+Start+2P&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div class="header">
+			<div class="title">
+				<h1>ITSI</h1>
+			</div>
+			<div class="subtitle">
+				<h2>Interplanetary Transport System Interface</h2>
+			</div>
+		</div>
+			<div class="page-title">
+				<h2>Ships Parameters</h2>
+			</div>
+		<div class="table">
+			<table>
+				<tr>
+					<th>Fuel:</th>
+					<th>Throttle:</th>
+					<th >Speed:</th>
+					<th>Acceleration (G-force):</th>
+				</tr>
+				<tr>
+					<td>727000 pounds</td>
+					<td id="throttle" onclick="increaseThrottle()">0</td>
+					<td id="speed">0</td>
+					<td>unable to detect</td>
+				</tr>
+			</table>
+		</div>
+		<p class="instructions">Click on Throttle's value to increase the ship's throttle capacity.</p>
+		<div class="returnPadding">
+			<div class="return">
+			<a href="index.html" title="Return to dashboard">Return To Dashboard</a>
+			</div>
+		</div>
+	</body>
+</html>
