@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Ships Environment</title>
+		<link rel="stylesheet" type="text/css" href="styles/mystyle.css">
+		<script src="scripts/environment.js" defer></script>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Press+Start+2P&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div class="header">
+			<div class="title">
+				<h1>ITSI</h1>
+			</div>
+			<div class="subtitle">
+				<h2>Interplanetary Transport System Interface</h2>
+			</div>
+		</div>
+			<div class="page-title">
+				<h2>Ships Environment</h2>
+			</div>
+		<div class="table">
+			<table>
+				<tr>
+					<th>Gravity:</th>
+					<th>Distance Traveled:</th>
+					<th>Atmosphere:</th>
+				</tr>
+				<tr>
+					<td id="gravity">90%</td>
+					<td id="distance" onclick="decreaseGravity()">0 miles</td>
+					<td>unable to detect</td>
+				</tr>
+			</table>
+		</div>
+		<p class="instructions">Click on the amount of miles to increase the ship's traveled distance.</p>
+		<div class="returnPadding">
+			<div class="return">
+			<a href="index.html" title="Return to dashboard">Return To Dashboard</a>
+			</div>
+		</div>
+	</body>
+</html>

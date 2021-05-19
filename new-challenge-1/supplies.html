@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Supplies</title>
+		<link rel="stylesheet" type="text/css" href="styles/mystyle.css">
+		<script src="scripts/supplies.js" defer></script>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Press+Start+2P&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div class="header">
+			<div class="title">
+				<h1>ITSI</h1>
+			</div>
+			<div class="subtitle">
+				<h2>Interplanetary Transport System Interface</h2>
+			</div>
+		</div>
+			<div class="page-title">
+				<h2>Supplies</h2>
+			</div>
+		<div class="table">
+			<table>
+				<tr>
+					<th>Food:<p id="foodSupply"></p></th>
+					<th>Water:</th>
+				</tr>
+				<tr>
+					<td><input type="text" id="password" placeholder="enter password">
+						<input type="button" id="checkPassword" value="submit"></td>
+					<td id="waterAmount" onclick="grabWater()"></td>
+				</tr>
+			</table>
+		</div>
+		<p class="instructions">Enter the correct password to reveal the amount of food supply there is.</p>
+		<p class="instructions">Click on the amount of water packets to grab a water packet.</p>
+		<div class="returnPadding">
+			<div class="return">
+			<a href="index.html" title="Return to dashboard">Return To Dashboard</a>
+			</div>
+		</div>
+	</body>
+</html>
